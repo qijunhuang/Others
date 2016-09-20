@@ -1,0 +1,5 @@
+#SSH登陆错误：WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!
+
+##解决办法：
+1、命令行输入：vi ~/.ssh/known_hosts
+2、删除登录的公网ip的相关内容
